@@ -12,7 +12,7 @@ Le boitier microPOC est un simple boitier minuteur déclenchant une charge au bo
 - Si vous appuyez sur le bouton pendant plus d'une seconde, le compte à rebour s'arrête (LED clignote plus).
 
 # charge acceptée
-- Pour se désaimanter, une impulsion de 1s est envoyée. Pour information, un tel électroaimant ne doit pas être alimenté plus de 20 secondes sous peine de cramer. La charge doit être alimentée en 12V pour 0.6A maximum, sauf si on change l'alimentation 12V.
+Pour se désaimanter, une impulsion de 1s est envoyée. Pour information, un tel électroaimant ne doit pas être alimenté plus de 20 secondes sous peine de cramer. La charge doit être alimentée en 12V pour 0.6A maximum, sauf si on change l'alimentation 12V.
 
 # liste de matériel
 - [Un boitier ABS G416](https://www.gotronic.fr/art-boitier-abs-g416-6614.htm)
@@ -28,10 +28,14 @@ Le boitier microPOC est un simple boitier minuteur déclenchant une charge au bo
 - [1 Arduino Nano](https://www.gotronic.fr/art-module-arduino-nano-12422.htm)
 - [1 Alimentation secteur universelle](https://www.fnac.com/mp40503490/Alimentation-universelle-pour-disque-dur-externe-12V-3A/w-4#omnsearchpos=1)
 
-# schémas
-
-<img src="./schema.jpg" width="300">
+# Programme Arduino
+le programme arduino est un programme Arduino classique pour Arduino Nano émulant une machine à états finis. La période d'échantillonnage de 100ms permet de s'affranchir des soucis de rebonds.
 
 # Machine à état
 
 <img src="./fsm.jpg" width="300">
+
+# schémas
+
+<img src="./schema.jpg" width="300">
+
