@@ -31,3 +31,7 @@ Le boitier microPOC est un simple boitier minuteur déclenchant une charge au bo
 # schémas
 
 <img src="./schema.jpg" width="300">
+
+# Machine à état
+
+<img src="./fsm.jpg" width="300">
