@@ -1,6 +1,6 @@
 # Description du projet
 Le boitier microPOC est un simple boitier minuteur déclenchant une charge au boût d'un certain temps. Il est notamment adapté à du spectacle de rue (pas de régisseur). Ce boitier simple peut être adapté et personnalisé comme on souhaite. Ici, la charge est un electroaimant permanent. C'est un electroaimant qui adhère tout le temps, même sans alimentation mais qui se désaimante quand on fait passer un courant.
-![Alt text](photo.jpg)
+![Alt text](photo.jpg){:width="20%"}
 
 # Mode d'emploi
 - Branchez le boitier sur le secteur, la LED doit s'allumer.
