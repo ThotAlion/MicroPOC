@@ -29,3 +29,5 @@ Le boitier microPOC est un simple boitier minuteur déclenchant une charge au bo
 - [1 Alimentation secteur universelle](https://www.fnac.com/mp40503490/Alimentation-universelle-pour-disque-dur-externe-12V-3A/w-4#omnsearchpos=1)
 
 # schémas
+
+<img src="./schema.jpg" width="300">
